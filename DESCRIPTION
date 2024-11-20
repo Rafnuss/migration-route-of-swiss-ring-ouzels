@@ -1,0 +1,33 @@
+Package: migrationRouteOfSwissRingOuzels
+Title: Migration Route of Swiss Ring Ouzels
+Version: 1.0.0
+Authors@R: c(
+    person("Arnaud Gian Barras", , , "Arnaud.Barras@vogelwarte.ch", role = c("ctr", "dtc", "cre"),
+           comment = c(ORCID = "https://orcid.org/0000-0003-0850-6965", "Swiss Ornithological Institute")),
+    person("Felix Liechti", , , "felix.liechti@vogelwarte.ch", role = "ths",
+           comment = c(ORCID = "https://orcid.org/0000-0001-9473-0837", "Swiss Ornithological Institute")),
+    person("Raphaël Arlettaz", role = "ths",
+           comment = c(ORCID = "https://orcid.org/0000-0001-6360-5339", "University of Bern")),
+    person("Raphaël Nussbaumer", , , "raphael.nussbaumer@vogelwarte.ch", role = "dtc",
+           comment = c(ORCID = "https://orcid.org/0000-0002-8185-1020", "Swiss Ornithological Institute"))
+  )
+Description: This GeoLocator Datapackage contains the raw data for 5 multi-sensor geolocators and 4
+  light-level geolocators data equipped on Ring Ouzel in Switzerland. The data has been proceed using 
+  the GeoPressureR package to produce trajectories for the 5 multi-sensor tags. 
+License: CC BY 4.0
+Depends: 
+    R (>= 3.5.0)
+Imports: 
+    config,
+    GeoPressureR,
+    ggplot2,
+    knitr,
+    plotly,
+    rmarkdown
+VignetteBuilder: 
+    knitr
+Remotes: 
+    rafnuss/GeoPressureR
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
