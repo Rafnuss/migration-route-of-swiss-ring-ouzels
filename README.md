@@ -1,19 +1,3 @@
 # Migration route of Swiss Ring Ouzel
 
-Trajectory of Hoopoe 
-
-## Contributors
-
-- **Arnaud Gian Barras** - ContactPerson, DataCollector, ProjectLeader ([Email](mailto:Arnaud.Barras@vogelwarte.ch))
-- **Felix Liechti** - Supervisor ([Email](mailto:felix.liechti@vogelwarte.ch))
-- **Raphaël Arlettaz** - Supervisor ([Email](mailto:))
-- **Raphaël Nussbaumer** - DataCurator ([Email](mailto:raphael.nussbaumer@vogelwarte.ch))
-
-## Overview
-
-**Version:** 0.4.0
-**Created:** 2024-11-05T09:06:09Z
-**Temporal coverage:** 2017-04-15 - 2020-04-29
-**Taxonomic coverage:** Turdus torquatus
-**Embargo until:**  1970-01-01 
-
+This GeoLocator Datapackage contains the raw data for 5 multi-sensor geolocators and 4 light-level geolocators data equipped on Alpine Ring Ouzels (Turdus torquatus alpestris) in Switzerland between 2017-2020. The data has been processed using the GeoPressureR package to produce trajectories for the 5 multi-sensor tags. Code can be found on Github [Rafnuss/migration-route-of-swiss-ring-ouzels](https://github.com/Rafnuss/migration-route-of-swiss-ring-ouzels). The raw data has been used in [10.1111/jav.02860](https://doi.org/10.1111/jav.02860)
