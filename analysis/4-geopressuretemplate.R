@@ -37,11 +37,11 @@ for (id in list_id){
   geopressuretemplate_graph(id)
 }
 
-id <- "20OA"
+id <- "16LF"
 load(glue::glue("./data/interim/{id}.RData"))
 
 # Run pressurepath
-for (id in list_id){
+for (id in  c( "22QQ")){
   cli::cli_h1("Run pressurepath for {id}")
   geopressuretemplate_pressurepath(id)
 }

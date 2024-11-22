@@ -11,9 +11,7 @@ Authors@R: c(
     person("Raphaël Nussbaumer", , , "raphael.nussbaumer@vogelwarte.ch", role = "dtc",
            comment = c(ORCID = "https://orcid.org/0000-0002-8185-1020", "Swiss Ornithological Institute"))
   )
-Description: This GeoLocator Datapackage contains the raw data for 5 multi-sensor geolocators and 4
-  light-level geolocators data equipped on Ring Ouzel in Switzerland. The data has been proceed using 
-  the GeoPressureR package to produce trajectories for the 5 multi-sensor tags. 
+Description: This GeoLocator Datapackage contains the raw data for 5 multi-sensor geolocators and 4 light-level geolocators data equipped on Alpine Ring Ouzels (Turdus torquatus alpestris) in Switzerland between 2017-2020. The data has been processed using the GeoPressureR package to produce trajectories for the 5 multi-sensor tags. Code can be found on Github [Rafnuss/migration-route-of-swiss-ring-ouzels](https://github.com/Rafnuss/migration-route-of-swiss-ring-ouzels). The raw data has been used in [10.1111/jav.02860](https://doi.org/10.1111/jav.02860)
 License: CC BY 4.0
 Depends: 
     R (>= 3.5.0)

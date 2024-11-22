@@ -1,4 +1,5 @@
 library(GeoLocatoR)
+library(frictionless)
 
 ## Publish Data Pacakge
 # See https://raphaelnussbaumer.com/GeoLocatoR/articles/create-from-geopressuretemplate.html
@@ -13,7 +14,7 @@ pkg <- create_gldp_geopressuretemplate(".")
 # Add DOI of the datapackage if already available or reserve it https://help.zenodo.org/docs/deposit/describe-records/reserve-doi/#reserve-doi
 pkg$id <- "https://doi.org/10.5281/zenodo.14191024"
 # Provide the recommended citation for the package
-pkg$citation <- ""
+# pkg$citation <- ""
 # Funding sources
 # pkg$grants <- c("Swiss Ornithological Intitute")
 # Identifiers of resources related to the package (e.g. papers, project pages, derived datasets, APIs, etc.).
