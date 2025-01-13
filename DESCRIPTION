@@ -1,6 +1,6 @@
 Package: migrationRouteOfSwissRingOuzels
 Title: Migration Route of Swiss Ring Ouzels
-Version: 1.0.0
+Version: 1.1.0
 Authors@R: c(
     person("Arnaud Gian Barras", , , "Arnaud.Barras@vogelwarte.ch", role = c("ctr", "dtc", "cre"),
            comment = c(ORCID = "https://orcid.org/0000-0003-0850-6965", "Swiss Ornithological Institute")),
