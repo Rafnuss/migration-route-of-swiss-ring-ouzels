@@ -44,7 +44,6 @@ vignettes/*.pdf
 
 # This file is too big
 # data/tag-raw/*
-data/interim/*
 data/wind/*
 data/old/*
 .RDataTmp
